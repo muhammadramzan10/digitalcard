@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', serif;
+    color: white;
+}
+
+.main-container{
+    padding: 20px;
+    width: auto;
+    height: 870;
+    background: #b7b9bf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-photo{
+    width: 320px;
+    border-radius: 10px 10px 0 0;
+}
+
+.info{
+    background: #1A1B21;
+    padding: 10px;
+    width: 320px;
+    border-radius: 0 0 10px 10px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-credentials{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-credentials :nth-child(2){
+    color: #F3BF99;
+} 
+.info-credentials :nth-child(3){
+    margin: 8px 0;
+} 
+
+.info-social, .info-about{
+    width: 300px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.email, .linkedin{
+    padding: 9px 13px 9px 11px;
+    border: 1px solid #D1D5DB;
+    width: 115px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.email{
+    background: #ffffff;
+    color: #374151;
+}
+.linkedin{
+    background: #5093E2;
+    border: none;
+    color: #fff;
+}
+
+
+.info-about{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-content > h3{
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.about-content > p{
+    font-size: 12px;
+    text-align: start;
+}
+
